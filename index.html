@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             body{
+                padding: 0;
+                margin: 0;
+             }
+
+             .container{
+                background-color: rgba(8, 126, 53, 0.61);
+                height: 550px;
+                width: 550px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                margin-top: 50px;
+                border-radius: 20px;
+                
+
+             }
+
+             input{
+                height: 25px;
+                width: 250px;
+                position: relative;
+                background-color: aqua;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                margin-top: 10px;
+                text-decoration: none;
+                border-style: none;
+                text-align: center;
+                border-radius: 10px;
+                justify-content: center;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                
+             }
+
+             .botton{
+                position:absolute;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                 
+             }
+
+             .login{
+                height: 30px;
+                width: 80px;
+                background-color: aqua;
+                border-radius: 8px;
+                margin-left: 170px;
+                color: green;
+                padding: 5px;
+                padding-left: 20px;
+                text-align: center;
+                margin-top: 20px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                border-style: none;
+             }
+
+            input::placeholder{
+                margin: 10px;
+                margin-top: 200px;
+                color: green;
+            
+            }
+            .email{
+                margin-top: 250px
+            }
+
+            .container h1{
+                position: absolute;
+        
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                color: rgb(92, 235, 156);
+                margin-top: 100px;
+                margin-left: 170px;
+            }
+
+    </style>
+</head>
+<body>
+    <form action="submit.php">
+    <div class="container"> <h1>Enter details</h1>
+        <div>
+        <input class="email" type="email" placeholder="Enter your email">
+    </div>
+    <div>
+        <input type="password" placeholder="Enter your password" required>
+    </div>
+    <div class="botton">
+        <button class="login">Login</button>
+    </div>
+    </div>
+
+     </form>
+</body>
+</html>
